@@ -1,10 +1,10 @@
 console.log("Loops in JS");
 
-// For Loop 
-// for(let i=0; i<=10; i++){
-// console.log(i);
-// console.log("Hello world!");
-// }
+For Loop 
+for(let i=0; i<=10; i++){
+console.log(i);
+console.log("Hello world!");
+}
 
 // While loop
 // let i = 0;
