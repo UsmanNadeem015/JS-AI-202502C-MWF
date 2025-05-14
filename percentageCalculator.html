@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage calculator</title>
+</head>
+<body>
+    <h1>Percentage calculator</h1>
+
+    <script>
+        let userNumber = prompt("Marks Obtained: ")
+        let totalNumber = prompt('Total marks: ')
+        let result = userNumber / totalNumber * 100
+
+        if(result >= 90){
+            document.write('Your grade is A')
+        }
+        else if(result >=80){
+            document.write('Your grade is B')
+        }
+        else if(result >=70){
+            document.write('Your grade is C')
+        }
+        else if(result >= 60){
+            document.write('Your grade is D')
+        }
+        else{
+            document.write('Pad le bhai')
+        }
+    </script>
+</body>
+</html>

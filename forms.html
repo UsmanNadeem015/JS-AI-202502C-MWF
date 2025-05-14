@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froms With JS</title>
+</head>
+<body>
+<h1>Student Data</h1>
+<form action="">
+    <label for="">Name: </label>
+    <br>
+    <input type="text" id="nm">
+<br><br>
+    <label for="">CMS: </label>
+    <br>
+    <input type="text" id="cmsid">
+<br><br>
+    <label for="">Program: </label>
+    <br>
+    <input type="text" id="pro">
+<br><br>
+    <button onclick="stdData()">Submit</button>
+</form>
+    
+<script>
+
+function stdData(){
+var name = document.getElementById('nm').value
+var cms = document.getElementById('cmsid').value
+var program = document.getElementById('pro').value
+
+if(name == '', cms == '', program == ''){
+alert('Hello World')
+}
+
+var n=name
+var c=cms
+var p=program
+
+document.write('<h1><center>Student Details</center></h1>')
+document.write('<center>'+'Name: ' + n + '<br>'+ '</center>')
+document.write('<center>'+'CMS: ' + c + '<br>'+ '</center>')
+document.write('<center>' +'Program: ' + p + '<br>'+ '</center>')
+
+
+}
+
+
+
+</script>
+
+</body>
+</html>
