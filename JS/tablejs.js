@@ -17,4 +17,4 @@
 //    document.write(userInput + ' x ' + i + ' = ' + result + '<br>')
 //    i++
 // }
-// while(i <= 10)
+// while(i <= 10)0000
